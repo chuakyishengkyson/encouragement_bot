@@ -23,6 +23,14 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
+    if each_word == "anxious":
+      feelings_list.append("anxious")
+      encouragement_list.append("breathe in and out a few times, close your eyes and focus on your breathing. try to calm yourself down and soothe your nerves. there is nothing to be anxious about.")
+      counter += 1
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("studies and results are not everything. there is no need to feel stressed, as long as you know that you have done your best, you will do fine!")
+      counter += 1
 
   if counter == 0:
     
